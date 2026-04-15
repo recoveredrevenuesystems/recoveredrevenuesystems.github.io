@@ -118,7 +118,6 @@
   }
 </style>
 </head>
- <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="69d067b2d9608a923c67a516"></script>
 <body>
 
 <nav>
@@ -263,15 +262,19 @@
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email" placeholder="john@smithhvac.com" required>
       </div>
-      
-      <div class="consent-group">
-        <input type="checkbox" id="consent-marketing" name="consent_marketing" required>
-        <label for="consent-marketing">I consent to receive marketing text messages from Recovered Revenue Systems at the phone number provided. Frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.</label>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="(954) 555-0100" required>
       </div>
 
       <div class="consent-group">
-        <input type="checkbox" id="consent-transactional" name="consent_transactional" required>
-        <label for="consent-transactional">I consent to receive non-marketing text messages from Recovered Revenue Systems about appointment reminders, service updates, and follow-up communications. Frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.</label>
+        <input type="checkbox" id="consent-marketing" name="consent_marketing">
+        <label for="consent-marketing">I consent to receive marketing text messages, about special offers, discounts, and service updates, from Recovered Revenue Systems at the phone number provided. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.</label>
+      </div>
+
+      <div class="consent-group">
+        <input type="checkbox" id="consent-transactional" name="consent_transactional">
+        <label for="consent-transactional">I consent to receive non-marketing text messages from Recovered Revenue Systems about missed call follow-ups, appointment reminders, demo scheduling, and service notifications. Message frequency may vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to opt out.</label>
       </div>
 
       <div class="tos-links">
@@ -280,7 +283,7 @@
       </div>
 
       <button type="submit" class="form-submit">Request My Free Demo — We Will Call You Back</button>
-      <p class="form-note">We respect your privacy. Your info is never shared. Consent is not a condition of purchase.</p>
+      <p class="form-note">Consent is not a condition of purchase. We respect your privacy. Your info is never shared with third parties for marketing purposes.</p>
     </form>
     <div class="success-msg" id="success-msg">
       We received your request! A member of our team will call you back within the hour. Talk soon.
